@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BlueSTSDKExample</string>
+    <string name="log">Log Activity</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="upload_file_to_gg_drive">UPLOAD FILE TO GG DRIVE</string>
+    <string name="app_title">SENSIBLE</string>
+</resources>

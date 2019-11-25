@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LogActivity">
+
+    <TextView
+        android:id="@+id/accText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <Button
+        android:id="@+id/uploadbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="uploadFile"
+        android:text="@string/upload_file_to_gg_drive"
+        android:visibility="invisible" />
+
+</RelativeLayout>
